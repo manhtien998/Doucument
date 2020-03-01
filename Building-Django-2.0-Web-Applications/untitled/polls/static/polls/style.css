@@ -1,0 +1,25 @@
+ .header{
+            padding: 30px;
+            background-color: #cc2d42;
+            color: #6f4bff;
+        }
+        .menu{
+            background-color: chocolate;
+            color: #75ff3c;
+        }
+        .menu ul li {
+            float: left ;
+            padding: 12px 14px;
+        }
+        .menu ul {
+            list-style: none;
+        }
+        .menu.hover{
+            background-color: aquamarine;
+            color: #000;
+        }
+        .menu:after{
+            clear: both;
+            display: table;
+            content: '';
+        }
